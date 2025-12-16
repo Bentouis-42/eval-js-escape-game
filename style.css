@@ -1,0 +1,213 @@
+/*la couleur de mon text*/
+.colortext {
+    color: #c38423;
+}
+
+
+/*couleur de mon corps*/
+body {
+    background-color: #1d1b19;
+}
+
+
+
+
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.atextblanc{
+    color: white;
+}
+
+
+
+.colorbackground {
+    background-color: #c38423;
+}
+
+
+
+/*mes classes de largeur*/
+.w25 {
+    width: 25%;
+}
+
+.w33 {
+    width: 33%;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w20{
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+/*mon contenair*/
+.container {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+a {
+    text-decoration: none;
+    /*Class pour enlever les surlignement des a*/
+    color: #c38423;
+    /* noir */
+}
+
+
+.taille-img {
+
+    width: 33%;
+    height: 33%;
+
+}
+
+/*mon boutonn*/
+.btn {
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #030303;
+    background: linear-gradient(135deg, #c38423);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 6px 15px rgba(8, 8, 8, 0.3);
+}
+
+
+
+
+
+.responsive {
+    /*Les images doivent d'adapter a leur parents*/
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* jouez sur ces proprietés pour recadrer / agrandir l'image */
+    object-position: center;
+}
+
+
+
+
+
+
+
+/*mes classes d'espacement et d'alignement*/
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+
+
+
+/*mes classes d'alignement d'objets*/
+
+
+/*aligné les items au centre*/
+.align-center {
+    align-items: center;
+}
+
+
+/*aligné les items au début*/
+.flex-start {
+    align-items: flex-start;
+}
+
+
+/*aligné les items a la fin*/
+.flex-end {
+    align-items: flex-end;
+}
+
+
+
+.w20{
+    width: 20%;
+}
+
+
+.gap{
+    gap: 100px;
+}
+
+
+
+
+
+.lahauteur{
+    height: 7vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero{
+  background-image:url('asset/banniere.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 10px;
+}
