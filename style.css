@@ -1,17 +1,29 @@
 /*la couleur de mon text*/
 .colortext {
-    color: #c38423;
+    color: #D5BD20;
 }
 
 
 /*couleur de mon corps*/
 body {
-    background-color: #1d1b19;
+    background-color: #1D1D1D;
 }
 
+/*de la deco*/
+.card {
+   width: 40%;
+  
+  
+  background: #0b0b0b90;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 
+}
 
-
+.margin-bottom{
+    margin-bottom: 50px;
+}
 
 /* Reset */
 * {
@@ -21,18 +33,23 @@ body {
 
 }
 
+.centrerletext
 
 .atextblanc{
     color: white;
 }
 
-
-
-.colorbackground {
-    background-color: #c38423;
+.textblan{
+    color: white;
 }
 
-
+.colorbackground {
+    background-color: #D5BD20;
+}
+/*couleur de mon text*/
+.textnoir{
+    color: black;
+}
 
 /*mes classes de largeur*/
 .w25 {
@@ -51,6 +68,11 @@ body {
     width: 50%;
 }
 
+.w80{
+    width: 80%;
+    height: 80%;
+}
+
 .w100 {
     width: 100%;
 }
@@ -59,9 +81,16 @@ body {
     width: 20%;
 }
 
+.w20{
+    width: 20%;
+}
 
 
-
+/*couleur d'arriére plan*/
+.bgcolor{
+   background-color: #D5BD20;
+   padding-top: 0%;
+}
 
 
 
@@ -78,11 +107,11 @@ body {
 a {
     text-decoration: none;
     /*Class pour enlever les surlignement des a*/
-    color: #c38423;
+    color: #D5BD20;
     /* noir */
 }
 
-
+/*la taille de mes images*/
 .taille-img {
 
     width: 33%;
@@ -90,20 +119,36 @@ a {
 
 }
 
-/*mon boutonn*/
+/*mon boutonn principale*/
 .btn {
+    margin-left: auto;
+    display: inline-block;
+    margin-right: auto;
     padding: 10px 24px;
     font-size: 16px;
     font-weight: 600;
     color: #030303;
-    background: linear-gradient(135deg, #c38423);
+    background: linear-gradient(135deg, #D5BD20);
     border: none;
     border-radius: 5px;
     box-shadow: 0 6px 15px rgba(8, 8, 8, 0.3);
 }
+/*ma réserve de bouton*/
+.secondbtn {
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #D5BD20;
+    background: linear-gradient(135deg, #0e0e0e);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 6px 15px rgba(8, 8, 8, 0.3);
+ 
+}
 
-
-
+.marginbottom-50px{
+    margin-bottom: 100px;
+}
 
 
 .responsive {
@@ -168,9 +213,8 @@ a {
 }
 
 
-
-.w20{
-    width: 20%;
+.text-center{
+    text-align:center
 }
 
 
@@ -188,17 +232,7 @@ a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+/*mon hero*/
 .hero{
   background-image:url('asset/banniere.png');
   background-repeat: no-repeat;
@@ -210,4 +244,34 @@ a {
   justify-content: center;
   color: white;
   font-size: 10px;
+}
+
+
+.latailledemesimg{
+align-items: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+.tailledetext{
+    font-size: 40px;
+    text-align: center;
+}
+/*class pour que l'image ne se répette pas*/
+.repetitiondelimg{
+ background-repeat: no-repeat;
+}
+
+
+
+.padding-20px{
+    padding: 50px;
+}
+
+
+
+
+.margintop-20px{
+    margin-top: 20px;
 }

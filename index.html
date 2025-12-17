@@ -5,10 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+
+     <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -21,50 +30,110 @@
 <!-- mon corps -->
 
 <body>
-<!-- c'est mon en-tête est le parent -->
-<header class="flex space-between">
-    
+    <!-- c'est mon en-tête est le parent -->
+    <header class="flex space-between">
 
-<!-- premiere enfant -->
-    <a href="" class="">
-        <img class="colorbackground w20"src="asset/logo-escape-1.png" alt="" class="">
-    </a>
+     
+        <!-- premiere enfant -->
+        <a href="" class="">
+            <img class="colorbackground w20" src="asset/logo-escape-1.png" alt="" class="">
+        </a>
 
-<!-- parent de mes a -->
-    <nav class="w50 flex gap align-center">
-       
-        <a href="" class="atextblanc ">Acceuil</a>
-        <a href="" class="atextblanc ">Evenments</a>
-        <a href="" class="atextblanc ">Tarifs</a>
-        
-    </nav>
-    <!-- troisième enfant -->
-    <a href="" class="btn lahauteur"> CONTACT</a>
+        <!-- parent de mes a -->
+        <nav class="w50 flex gap align-center">
 
-</header>
+            <a href="" class="atextblanc ">Acceuil</a>
+            <a href="" class="atextblanc ">Evenments</a>
+            <a href="" class="atextblanc ">Tarifs</a>
 
-<!-- section hero -->
-<section class="hero">
+        </nav>
+        <!-- troisième enfant -->
+        <a href="" class="btn lahauteur"> CONTACT</a>
 
-<div>
-   <h1>Découvrez l'aventure ultime avec Dehors!, votre destination d'escape game à Paris</h1>
-   <a href="">Réserver maintenat</a>
+    </header>
 
-
-</div>
-
-
-</section>
+    <!-- section hero -->
+    <section class="hero ">
+        <!-- mon parent -->
+        <div class="card flex align-center space-between" >
+            <h1 class="tailledetext">Découvrez l'aventure ultime avec Dehors!, votre destination d'escape game à Paris
+            </h1>
+            <a href="" class="btn align-center">Réserver maintenat</a>
+        </div>
 
 
-<main class="container">
-    
-</main>
+
+    </section>
+
+
+    <main class="container ">
+        <section class="marginbottom-50px">
+            <div class="" data-aos="fade-up">
+                <h2 class="colortext textblan text-center ">Qu’est ce qu’un escape game</h2>
+                <p class="colortext textblan text-center">Un escape game est un jeu d’équipe immersif où les
+                    participants doivent résoudre des énigmes et accomplir
+                    des missions dans un temps limité afin de s’échapper d’un
+                    lieu ou d’atteindre un objectif.</p>
+            </div>
+        </section>
+       <h3 class="textblan text-center">Les aventures que nous proposons</h3>
+        <section class="bgcolor flex space-between" id="section1">
+ 
+            <div>
+
+
+            </div>
+        </section>
+        <section class="">
+            <h3 class="textblan">Nos Tarifs</h3>
+            <div>
+                <div data-aos="zoom-in-up">
+
+                    <p class="textblan"><i class="ph ph-users"></i></p>
+                    <p class="textblan">2 Personnes</p>
+                    <h2 class="textblan">35€/pers</h2>
+                </div>
+                <div>
+
+                    <p class="textblan"><i class="ph ph-users-three"></i></p>
+                    <p class="textblan">3 Personnes</p>
+                    <h2 class="textblan">30€/pers</h2>
+                </div>
+                <div>
+                    <p class="textblan"><i class="ph ph-users-four"></i>
+                    </p>
+                    <p class="textblan">4 personnes</p>
+                    <h2 class="textblan">22€/pers</h2>
+                </div>
+            </div>
+        </section>
+        <h2 class="textblan">Les avis de nos clients</h2>
+        <section class="flex space-between" id="section2"></section>
+
+
+      
+    </main>
+
+  <footer class="bgcolor">
+            <p>Venez vous challengez en famille ou entre amis ! </p>
+           
+                <i class="ph-thin ph-instagram-logo"></i>
+
+            <input type="text">
+            <input type="email">
+
+            <a href="" class="secondbtn">envoyer</a>
+            <p>Mentions legales @2025</p>
+        </footer>
+
+
 
 
 
 
 
 </body>
-
+<script>
+  AOS.init();
+</script>
 </html>
