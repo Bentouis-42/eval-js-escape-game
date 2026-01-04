@@ -54,6 +54,7 @@ body {
 /*mes classes de largeur*/
 .w25 {
     width: 25%;
+    
 }
 
 .w33 {
@@ -274,4 +275,12 @@ align-items: center;
 
 .margintop-20px{
     margin-top: 20px;
+}
+
+
+
+
+
+.textalign-center{
+    text-align: center;
 }
